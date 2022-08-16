@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    overflow-x: hidden;
+}
+
+.navbar {
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    font-weight: bold;
+    color: lightpink;
+    background-color: darkslateblue;
+}
+
+.navbar h1 {
+    font-size: 45px;
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    font-size: 20px;
+    justify-content: space-around;
+    max-width: 100%;
+    margin-top: 7px;
+}
+
+.menu a:hover{
+background-color: lightpink;
+color: darkslateblue;
+border-radius: 30px;
+
+}
+
+
+
+ul a {
+    color: lightpink;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.experiencia {
+    min-width: 100vw;
+    min-height: 50vh;
+    padding: 3em;
+    display: flex;
+    flex-direction: row;
+    background-color: lightpink;
+}
+
+.img-experiencia {
+    width: 50%;
+}
+
+.container-exp {
+    padding: 3em;
+    padding-top: 10em;
+}
+
+.btn-contacto {
+    padding: 10px 20px;
+    background-color: darkslateblue;
+    color: lightpink;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px #bfaef5;
+}
+
+.informacion {
+    min-width: 70vw;
+    min-height: 70vh;
+    padding: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: darkslateblue;
+    color: lightpink;
+}
+
+.info-tittle {
+    font-size: 40px;
+}
