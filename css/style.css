@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Lilita+One&family=Oleo+Script&family=Silkscreen&family=Splash&display=swap');
 
 * {
     margin: 0;
@@ -12,7 +11,7 @@ html {
 }
 
 body {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oleo Script', cursive;
     overflow-x: hidden;
 }
 
@@ -29,6 +28,7 @@ body {
 
 .navbar h1 {
     font-size: 45px;
+    font-family:'Oleo Script', cursive;
 }
 
 .menu {
@@ -40,10 +40,15 @@ body {
     margin-top: 7px;
 }
 
+.menu li a {
+    transition: all 0.5s ease;
+}
+
 .menu a:hover{
 background-color: lightpink;
 color: darkslateblue;
 border-radius: 30px;
+
 
 }
 
@@ -72,11 +77,13 @@ ul {
 
 .img-experiencia {
     width: 50%;
+
 }
 
 .container-exp {
     padding: 3em;
     padding-top: 10em;
+    font-size: 20px;
 }
 
 .btn-contacto {
@@ -88,11 +95,12 @@ ul {
     margin-top: 10px;
     cursor: pointer;
     box-shadow: 1px 3px 11px -5px #bfaef5;
+    font-family: 'Oleo Script', cursive;;
 }
 
 .informacion {
-    min-width: 70vw;
-    min-height: 70vh;
+    min-width: 85vw;
+    min-height: 85vh;
     padding: 5em;
     display: flex;
     flex-wrap: wrap;
@@ -103,4 +111,54 @@ ul {
 
 .info-tittle {
     font-size: 40px;
+}
+
+.info-text {
+    font-size: 20px;
+}
+
+
+.ubicacion {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: darkslateblue;
+}
+
+.ubi-tittle {
+    color: lightpink;
+    text-align: center;
+    padding-top: 2em;
+    font-size: 50px;
+}
+
+.mapa {
+    padding: 2em;
+
+}
+
+.mapa iframe {
+    width: 100%;
+    padding-top: 2em;
+}
+
+.btn-wsp {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.btn-wsp:hover{
+text-decoration: none;
+color: #0df053;
+background-color: #fff;
 }
